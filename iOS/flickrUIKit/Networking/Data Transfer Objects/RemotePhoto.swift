@@ -1,6 +1,6 @@
 import Foundation
 
-struct Photo: Decodable {
+struct RemotePhoto: Decodable {
     var id: String
     var farm: Int
     var server: String
